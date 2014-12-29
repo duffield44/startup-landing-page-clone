@@ -46,3 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+  ========================================
+  Making Sections Visible - DELETE when project is completed
+  ========================================
+*/
+
+body {
+    background-color: LightGray;
+div {
+    border: 1px solid Chocolate;
+}
