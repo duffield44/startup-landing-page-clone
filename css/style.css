@@ -70,6 +70,18 @@ div {
 
 /*
   ========================================
+  Font
+  ========================================
+*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/*
+  ========================================
   Grid
   ========================================
 */
@@ -93,4 +105,18 @@ div {
 }
 .top-navigation .logo {
 	height: 4.375rem;
+}
+.top-navigation .links {
+	float: right;
+	color: #838994; 
+	letter-spacing: 0.03em;
+	margin-top: 1.7rem;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.563rem;
+	}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
 }
