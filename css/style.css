@@ -154,3 +154,18 @@ body {
 	text-align: center;
 	font-weight: 100;
 }
+
+/*Button*/
+
+.big-button {
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-radius: 4px;
+	border-style: none;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
+	display: block;
+	margin: 1.563rem auto 0 auto;
+}
