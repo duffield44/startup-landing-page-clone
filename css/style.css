@@ -99,6 +99,8 @@ body {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
 }
 .top-navigation .content {
     height: 4.375rem;
