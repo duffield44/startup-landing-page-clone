@@ -174,3 +174,25 @@ body {
 	border-color: #d9400e;
 	cursor: pointer;
 }
+
+/*
+  ========================================
+  Cases Section
+  ========================================
+*/
+
+.cases {
+	background-color: #fff; 
+	overflow: auto;
+}
+.cases .content {
+	margin-top: 7.875rem;
+	color: ##1d1e21;
+	text-align: center;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	font-weight: 100;
+	margin: 1.625rem 0 3.125rem;
+}
