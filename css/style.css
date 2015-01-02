@@ -55,6 +55,14 @@ table {
           box-sizing: border-box;
 }
 
+.flexbox {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
 /*
   ========================================
   Making Sections Visible - DELETE when project is completed
@@ -183,7 +191,7 @@ body {
 
 .cases {
 	background-color: #fff; 
-	overflow: auto;
+	overflow: hidden;
 }
 .cases .content {
 	margin-top: 7.875rem;
@@ -195,4 +203,10 @@ body {
 	font-size: 2.75rem;
 	font-weight: 100;
 	margin: 1.625rem 0 3.125rem;
+}
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	float: left;
+
 }
