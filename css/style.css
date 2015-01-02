@@ -192,6 +192,7 @@ body {
 .cases {
 	background-color: #fff; 
 	overflow: hidden;
+	padding-bottom: 5rem;
 }
 .cases .content {
 	margin-top: 7.875rem;
@@ -208,5 +209,8 @@ body {
 	width: 33.3333333%;
 	display: inline-block;
 	float: left;
-
+}
+.cases .devices h3 {
+	font-size: 1.563rem;
+	margin: 2.5rem 0 1.875rem;
 }
