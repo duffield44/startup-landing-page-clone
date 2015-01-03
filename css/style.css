@@ -223,9 +223,14 @@ body {
 */
 .social {
 	background-color: #fff;
+	padding-bottom: 9.375rem;
 }
 .social .content {
 	text-align: center;
+}
+.social hr {
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
 }
 .social .icons li {
 	border-radius: 1.25rem;
@@ -236,7 +241,13 @@ body {
 	padding: 0.625rem 0;
 	margin: 1.25rem 5px;
 }
-
+.social .icons li:hover {
+	cursor: pointer;
+}
+.social .copy {
+	font-size: 0.9rem;
+	color: #838994;
+}
 .social .twitter {
 	color: #55acee;
 }
